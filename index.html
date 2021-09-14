@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tiny app</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
@@ -16,18 +16,20 @@
         <a href="/" class='top-link'>note</a>
         <a href="/" class='top-link'>game</a>
     </div>
-    <aside class="left">
-        <button class="button-left"><</button>
-    </aside>
-    <div class="caro">
-        <span class='app-name'>
-            tiny 
-            <span class='app-name'>app</span>
-        </span>
-        <span class="release">coming soon</span>
+    <div class="center">
+        <aside class="left">
+            <button onclick='toggleLeft()' class="button-left"><</button>
+        </aside>
+        <div class="caro-container">
+            <div class="caro">
+                <div class='app-name-tiny name'>tiny </div>
+                <div class='app-name name'>app</div>
+            </div>
+            <div class="release">coming soon</div>
+        </div>
+        <aside class="right">
+            <button class="button-right">></button>
+        </aside>
     </div>
-    <aside class="right">
-        <button class="button-right">></button>
-    </aside>
 </body>
 </html>
