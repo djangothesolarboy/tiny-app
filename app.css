@@ -3,17 +3,38 @@
 * {
     font-family: 'Indie Flower', cursive;
     color: #7f7f7f;
+    /* background-color: #efefef; */
 }
 
-a, button {
+.page-container {
+    height: 100%;
+}
+
+a, 
+.links, 
+button,
+.button-left,
+.button-right {
+    display:flex;
     font-size: 40px;
-    color: #7f7f7f;
     text-decoration: none;
 }
 
+/* .links,
+.app-name-tiny,
+.app-name-name,
+.release,
+.copyright,
+.button-left,
+.button-right {
+    color: #7f7f7f;
+} */
+
 button {
+    text-decoration: none;
     background: none;
 	border: none;
+    cursor: pointer;
 	padding: 0;
 }
 
@@ -55,4 +76,20 @@ button {
     align-self: center;
     justify-content: center;
     font-size: 50px;
+}
+
+.copyright {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    bottom: 0;
+}
+
+.repo-link {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    bottom: 0;
+    font-size: 20px;
+    text-decoration: underline;
 }

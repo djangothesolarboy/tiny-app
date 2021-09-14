@@ -8,21 +8,18 @@ let apps = [
 ]
 
 let currentApp = document.querySelector('.app-name-name');
-let buttonLeft = document.querySelector('.button-left');
-let buttonRight = document.querySelector('.button-right');
-let topLinks = document.getElementsByClassName('links');
 currentApp.innerHTML = apps[0];
 
 const lightOn = () => {
     document.body.style.color = '#7f7f7f';
-    document.body.style.backgroundColor = 'white';
-    currentApp.style.color = '#8fdfff';
+    document.body.style.backgroundColor = 'white'; 
+    currentApp.style.color = '#8fdfff'; // blue
 }
 
 const lightOff = () => {
-    document.body.style.color = '#7f7f7f';
-    document.body.style.backgroundColor = 'black';
-    currentApp.style.color = '#ab84d8';
+    document.body.style.color = '#f7f7f7';
+    document.body.style.backgroundColor = '#545454'; // darker gray
+    currentApp.style.color = '#ab84d8'; // purple
 }
 
 const moveRight = () => {
