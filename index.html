@@ -9,27 +9,29 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <div class="link-div">
-        <a href="/" class='top-link'>app</a>
-        <a href="/" class='top-link'>blog</a>
-        <a href="/" class='top-link'>shop</a>
-        <a href="/" class='top-link'>note</a>
-        <a href="/" class='top-link'>game</a>
-    </div>
-    <div class="center">
-        <aside class="left">
-            <button onclick='toggleLeft()' class="button-left"><</button>
-        </aside>
-        <div class="caro-container">
-            <div class="caro">
-                <div class='app-name-tiny name'>tiny </div>
-                <div class='app-name name'>app</div>
-            </div>
-            <div class="release">coming soon</div>
+    <div class="page-container">
+        <div class="link-div">
+            <a href="/" class='links'>app</a>
+            <a href="/" class='links'>blog</a>
+            <a href="/" class='links'>shop</a>
+            <a href="/" class='links'>note</a>
+            <a href="/" class='links'>game</a>
         </div>
-        <aside class="right">
-            <button class="button-right">></button>
-        </aside>
+        <div class="center">
+            <aside class="left">
+                <button onclick='left()' class="button-left"><</button>
+            </aside>
+            <div class="caro-container">
+                <div class="caro">
+                    <div class='app-name-tiny'>tiny </div>
+                    <div class='app-name-name'></div>
+                </div>
+                <div class="release">coming soon</div>
+            </div>
+            <aside class="right">
+                <button onclick='right()' class="button-right">></button>
+            </aside>
+        </div>
     </div>
 </body>
 </html>

@@ -2,11 +2,12 @@
 
 * {
     font-family: 'Indie Flower', cursive;
+    color: #7f7f7f;
 }
 
 a, button {
     font-size: 40px;
-    color: black;
+    color: #7f7f7f;
     text-decoration: none;
 }
 
@@ -21,9 +22,9 @@ button {
     justify-content: space-around;
 }
 
-.app-name {
+.app-name-name {
     font-size: 100px;
-    color: #2ED9EB;
+    color: #8fdfff;
 }
 
 .app-name-tiny {
@@ -45,7 +46,7 @@ button {
     flex-direction: row;
 }
 
-.name {
+.app-name-tiny {
     padding: 10px;
 }
 
